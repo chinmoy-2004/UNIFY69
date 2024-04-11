@@ -544,4 +544,65 @@ font-weight: 400;
         display: grid;
         grid: 150px;
     }
+
+
+
+
+
+
+/*i added*/
+
+
+@media screen and (orientation: portrait) {
+
+        body{
+            width: 100vw;
+        }
+
+      .header{
+        width:100%vw;
+
+      }
+
+      .header .logo{
+        font-size: 35px;
+      }
+
+      .newsBox img{
+        width: 50vw;
+        object-position: center;
+      }
+
+      .newsBox span h4{
+        font-size: 20px;
+      }
+
+     .newsBox p{
+        font-size: 15px;
+        word-wrap: break-word;
+     }
+
+
+    .footer{
+        width: 100vw;
+
+    }
+
+    .footer .box{
+        display:flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .footer .left{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin: 2px;
+    }
+
+
+
+    }
     
